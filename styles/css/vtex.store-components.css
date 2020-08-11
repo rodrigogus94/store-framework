@@ -22,6 +22,9 @@
     border: transparent;
 }
 
+.infoCardContainer {
+    image-rendering: auto;
+}
 
 .infoCardContainer--vintage {
     background-color: #edcfd1;
