@@ -8,7 +8,6 @@
     max-width: 1260px;
     margin: 0 auto;
 
-
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
@@ -22,6 +21,11 @@
     background-color: blue;
     border: transparent;
 }
+
+.infoCardContainer {
+    
+}
+
 .infoCardContainer--vintage {
     background-color: #edcfd1;
 }
