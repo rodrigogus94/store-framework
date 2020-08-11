@@ -14,8 +14,6 @@
       "textPosition": "RIGHT"
     }
   },
-
-
   "flex-layout.row": {
     "children": [
       "info-card#rethink",
