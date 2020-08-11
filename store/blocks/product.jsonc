@@ -1,8 +1,7 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#main",
-      "product-price"
+      "flex-layout.row#main"
     ]
   },
   "flex-layout.row#main": {
@@ -33,7 +32,7 @@
    "product-price": {
       "props": {
         "showSavings": true,
-        "showListPrice": false
+        "showListPrice": true
       }
     }
 }
