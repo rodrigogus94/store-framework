@@ -30,8 +30,8 @@
       "product-identifier.product",
       "product-price",
       "sku-selector",
-      "product-quantity",
       "shipping-simulator",
+      "product-quantity",
       "buy-button"
     ]
   },
@@ -44,7 +44,7 @@
   "sku-selector": {
     "props": {
       "initialSelection": "empty",
-      "showValueForVariation": "image",
+      "showValueNameForImageVariation": "image",
       "showVariationsErrorMessage": false
     }
   },
