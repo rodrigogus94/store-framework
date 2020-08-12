@@ -45,7 +45,7 @@
     "props": {
       "initialSelection": "empty",
       "showValueNameForImageVariation": "image",
-      "showVariationsErrorMessage": false
+      "showVariationsErrorMessage": true
     }
   },
   "stack-layout": {
@@ -53,6 +53,11 @@
       "product-images",
       "product-brand"
     ]
+  },
+  "product-brand": {
+    "props": {
+      "height": "30",
+      "displayMode": "logo"
+    }
   }
-
 }
