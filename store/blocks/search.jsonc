@@ -52,6 +52,7 @@
 
    },
 
+
    "search-content":{
         "blocks": ["gallery", "not-found"]
    },
