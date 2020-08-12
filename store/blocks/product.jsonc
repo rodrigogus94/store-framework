@@ -41,6 +41,15 @@
       "showListPrice": true
     }
   },
+
+  "sku-selector": {
+      "props": {
+        "initialSelection": "empty",
+        "showValueForVariation": "image",
+        "showVariationsErrorMessage": false
+      }
+    },
+
   "stack-layout": {
     "children": [
       "product-images",
@@ -52,12 +61,6 @@
       "height": "30",
       "displayMode": "logo"
     }
-  },
-  "sku-selector": {
-    "props": {
-      "initialSelection": "empty",
-      "showValueForVariation": "image",
-      "showVariationsErrorMessage": false
-    }
   }
+
 }
