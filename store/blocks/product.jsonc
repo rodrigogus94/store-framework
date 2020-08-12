@@ -30,8 +30,8 @@
       "product-identifier.product",
       "product-price",
       "sku-selector",
-      "shipping-simulator",
       "product-quantity",
+      "shipping-simulator",
       "buy-button"
     ]
   },
@@ -43,10 +43,9 @@
   },
   "sku-selector": {
     "props": {
-    "showVariationsErrorMessage": false,
       "initialSelection": "empty",
-      "showValueForVariation": "image"
-
+      "showValueForVariation": "image",
+      "showVariationsErrorMessage": false
     }
   },
   "stack-layout": {
