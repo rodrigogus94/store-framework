@@ -1,4 +1,11 @@
 {
+    "drawer": {
+      "children": [
+        "header-row#main-mobile",
+      ]
+    },
+
+
     "header": {
         "blocks": [
           "header-layout.desktop",

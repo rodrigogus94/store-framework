@@ -1,7 +1,6 @@
 {
   "drawer": {
       "children": [
-      "header-row#main-mobile",
       "vtex.menu@2.x:menu#drawer"
       ]
     },
