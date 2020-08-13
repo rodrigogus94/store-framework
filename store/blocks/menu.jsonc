@@ -11,9 +11,9 @@
       "orientation": "horizontal"
     }
   },
-  "vtex.menu@2.x:submenu#major":{
+  "menu-item#major-appliances":{
     "children":[
-      "vtex.menu@2.x:menu#major",
+      "vtex.menu@2.x:submenu#major",
       "menu-item#refrigerators",
       "item#ovens",
       "menu-item#washers"
@@ -23,9 +23,9 @@
     }
   },
 
-  "vtex.menu@2.x:submenu#small":{
+  "menu-item#small-appliances":{
     "children":[
-      "vtex.menu@2.x:menu#small",
+      "vtex.menu@2.x:submenu#small",
       "menu-item#mixers",
       "menu-item#toasters",
       "menu-item#coffee"
@@ -35,8 +35,9 @@
     }
   },
 
-  "vtex.menu@2.x:submenu#electronics":{
+  "menu-item#electronics":{
        "children":[
+       "vtex.menu@2.x:submenu#electronics",
             "menu-item#cameras",
             "menu-item#laptops"
        ],
