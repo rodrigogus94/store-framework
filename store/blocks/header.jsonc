@@ -17,8 +17,8 @@
         "children": [
           "header-row#notification",
           "header-row#main",
-          "header-row#menu",
-          "header-row#main-mobile"
+          "header-row#menu"
+
         ]
       },
 
@@ -30,11 +30,6 @@
         ]
       },
 
-      "header-row#main-mobile":{
-        "children":[
-            "drawer"
-        ]
-      },
 
       "header-row#menu": {
         "children": [
@@ -77,6 +72,7 @@
 
     "header-row#main-mobile": {
       "children": [
+      "drawer"
         "logo",
         "header-spacer",
         "minicart",
