@@ -1,23 +1,4 @@
 {
-
-    "drawer": {
-      "children": [
-      "header-row#main-mobile"
-        "menu#drawer"
-      ]
-    },
-
-    "menu#drawer": {
-      "children": [
-        "menu-item#category-clothing",
-        "menu-item#category-decoration",
-        "menu-item#custom-sale"
-      ],
-      "props": {
-        "orientation": "vertical"
-      }
-    },
-
     "header": {
         "blocks": [
           "header-layout.desktop",
@@ -49,6 +30,7 @@
 
       "header-layout.mobile": {
         "children": [
+          "header-row#main-mobile",
           "header-row#notification",
           "header-row#main-mobile",
           "header-row#search"
