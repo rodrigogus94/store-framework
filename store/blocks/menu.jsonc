@@ -26,13 +26,19 @@
     "vtex.menu@2.x:menu#small":{
       "children":[
         "vtex.menu@2.x:submenu#small"
-      ]
+      ],
+      "props":{
+              "orientation": "vertical"
+            }
     },
 
     "vtex.menu@2.x:menu#electronics":{
         "children":[
             "vtex.menu@2.x:submenu#electronics"
-        ]
+        ],
+        "props":{
+                "orientation": "vertical"
+              }
     }
 
 
