@@ -4,7 +4,8 @@
       "children": [
         "menu-item#major-appliances",
         "menu-item#small-appliances",
-        "menu-item#electronics"
+        "menu-item#electronics",
+        "vtex.menu@2.x:menu#major"
       ],
 
       "props":{
