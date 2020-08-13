@@ -1,25 +1,19 @@
 {
-     "vtex.menu@2.x:menu#categories": {
-          "children": [
-            "menu-item#major-appliances",
-            "menu-item#small-appliances",
-            "menu-item#electronics"
-          ],
-
-          "props":{
-            "orientation": "horizontal"
-          }
-     },
-
-     "menu-item#major-appliances":{
-
-     },
-
-     "menu-item#small-appliances":{
-
-     },
-
-     "menu-item#electronics":{
-
-     }
+  "vtex.menu@2.x:menu#categories": {
+    "children": [
+      "menu-item#major-appliances",
+      "menu-item#small-appliances",
+      "menu-item#electronics"
+    ],
+    "props": {
+      "orientation": "horizontal"
+    }
+  },
+  "menu-item#major-appliances":{
+    "children":[
+      "vtex.menu@2.x:menu#major"
+    ]
+  },
+  "menu-item#small-appliances": {},
+  "menu-item#electronics": {}
 }
