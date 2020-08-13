@@ -30,7 +30,6 @@
 
       "header-layout.mobile": {
         "children": [
-          "header-row#main-mobile",
           "header-row#notification",
           "header-row#main-mobile",
           "header-row#search"

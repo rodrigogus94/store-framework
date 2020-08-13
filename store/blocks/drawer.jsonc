@@ -1,6 +1,7 @@
 {
   "drawer": {
       "children": [
+      "header-row#main-mobile",
       "vtex.menu@2.x:menu#drawer"
       ]
     },
@@ -21,7 +22,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 1, 
+        "categoryId": 1,
         "text": "Major Appliances"
       }
     },
@@ -35,7 +36,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 2, 
+        "categoryId": 2,
         "text": "Small Appliances"
       }
     },
@@ -49,7 +50,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 3, 
+        "categoryId": 3,
         "text": "Electronics"
       }
     },
