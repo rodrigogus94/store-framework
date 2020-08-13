@@ -1,9 +1,12 @@
 {
   "vtex.menu@2.x:menu#categories": {
-    "children": [
+    "children":[
       "menu-item#major-appliances",
       "menu-item#small-appliances",
-      "menu-item#electronics"
+      "menu-item#electronics",
+      "vtex.menu@2.x:menu#major",
+      "vtex.menu@2.x:menu#small",
+      "vtex.menu@2.x:menu#electronics"
     ],
     "props": {
       "orientation": "horizontal"
@@ -11,7 +14,7 @@
   },
   "vtex.menu@2.x:menu#major":{
         "children":[
-            " menu-item#refrigerators",
+            "menu-item#refrigerators",
             "menu-item#ovens",
             "menu-item#washers"
         ],
@@ -20,7 +23,7 @@
         }
   },
 
-  " vtex.menu@2.x:menu#small":{
+  "vtex.menu@2.x:menu#small":{
         "children":[
             "menu-item#mixers",
             "menu-item#toasters",
