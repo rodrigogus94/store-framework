@@ -25,13 +25,13 @@
 
     "vtex.menu@2.x:menu#small":{
       "children":[
-        "vtex.menu@2.x:menu#major"
+        "vtex.menu@2.x:submenu#small"
       ]
     },
 
     "vtex.menu@2.x:menu#electronics":{
         "children":[
-            "vtex.menu@2.x:submenu#small"
+            "vtex.menu@2.x:submenu#electronics"
         ]
     }
 
