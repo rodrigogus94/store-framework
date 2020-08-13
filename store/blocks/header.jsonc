@@ -1,26 +1,21 @@
 {
+
     "drawer": {
       "children": [
+      "header-row#main-mobile"
         "menu#drawer"
       ]
     },
 
     "menu#drawer": {
       "children": [
-        "header-row#main-mobile"
-
+        "menu-item#category-clothing",
+        "menu-item#category-decoration",
+        "menu-item#custom-sale"
       ],
       "props": {
-        "orientation": "horizontal"
+        "orientation": "vertical"
       }
-    },
-
-    "header-row#menu": {
-      "children": [
-        "header-spacer",
-        "vtex.menu@2.x:menu#categories",
-        "header-spacer"
-      ]
     },
 
     "header": {
@@ -41,6 +36,14 @@
           "header-row#notification",
           "header-row#main",
           "header-row#menu"
+        ]
+      },
+
+      "header-row#menu": {
+        "children": [
+          "header-spacer",
+          "vtex.menu@2.x:menu#categories",
+          "header-spacer"
         ]
       },
 
