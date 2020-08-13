@@ -22,15 +22,6 @@
         ]
       },
 
-      "header-row#menu":{
-        "children":[
-            "header-spacer",
-            "vtex.menu@2.x:menu#categories",
-            "header-spacer as children"
-        ]
-      },
-
-
       "header-row#menu": {
         "children": [
           "header-spacer",
@@ -72,7 +63,7 @@
 
     "header-row#main-mobile": {
       "children": [
-      "drawer"
+        "drawer",
         "logo",
         "header-spacer",
         "minicart",
