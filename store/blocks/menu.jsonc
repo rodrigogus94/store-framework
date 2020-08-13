@@ -33,13 +33,20 @@
   },
   "menu-item#electronics": {
     "children": [
-      "vtex.menu@2.x:submenu#electronics",
-      "menu-item#cameras",
-      "menu-item#laptops",
-      "menu-item#tvs"
+      "vtex.menu@2.x:submenu#electronics"
+
     ],
     "props": {
       "orientation": "vertical"
     }
+  },
+
+  "vtex.menu@2.x:submenu#electronics":{
+    "children":[
+        "menu-item#cameras",
+        "menu-item#laptops",
+        "menu-item#tvs"
+    ]
   }
+
 }
