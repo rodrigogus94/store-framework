@@ -1,9 +1,4 @@
 {
-    "drawer": {
-      "children": [
-        "header-row#main-mobile"
-      ]
-    },
 
     "header": {
         "blocks": [
@@ -22,15 +17,22 @@
         "children": [
           "header-row#notification",
           "header-row#main",
-          "header-row#menu"
+          "header-row#menu",
+          "header-row#main-mobile"
         ]
       },
 
       "header-row#menu":{
         "children":[
-            " header-spacer",
+            "header-spacer",
             "vtex.menu@2.x:menu#categories",
             "header-spacer as children"
+        ]
+      },
+
+      "header-row#main-mobile":{
+        "children":[
+            "drawer"
         ]
       },
 
