@@ -20,9 +20,9 @@
         "text": "Small Appliances"
       }
     },
-     "blocks": [
-       "vtex.menu@2.x:submenu#small"
-     ]
+    "blocks": [
+      "vtex.menu@2.x:submenu#small"
+    ]
   },
   "menu-item#electronics": {
     "props": {
@@ -33,9 +33,9 @@
         "text": "Electronics"
       }
     },
-     "blocks": [
-       "vtex.menu@2.x:submenu#electronics"
-     ]
+    "blocks": [
+      "vtex.menu@2.x:submenu#electronics"
+    ]
   },
   "menu-item#refrigerators": {
     "props": {
